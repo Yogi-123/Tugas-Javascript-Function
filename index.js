@@ -27,4 +27,15 @@ function fahrenheittocelcius (fahrenheit) {
 fahrenheittocelcius (70)
 
 // function menghitung umur kucing
+const konversiumurkucing = (umur) => {
+    if (umur == 1) {
+        console.log(umur * 15);
+    } else if ( umur == 2) {
+        console.log(umur * 24);
+    } else { console.log(((umur-2)*4) + 24)}
+}
 
+// function mengubah format huruf string
+function merubahformathuruf (text = "text") {
+    return text.toLowerCase();
+}
